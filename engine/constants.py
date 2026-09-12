@@ -77,3 +77,8 @@ SUCCESS_AT_ANY_COST: Final[str] = "Success at Any Cost"
 COME_WE_FLY: Final[str] = "Come, We Fly"
 
 # ===== END OF EXPANSION NAMES =====
+# ===== START OF GAME RULES =====
+
+HAND_SIZE: Final[int] = 4 # Should this be a constant? It's a rule, but it could be changed (Jafar)
+
+# ===== END OF GAME RULES =====

@@ -1,10 +1,10 @@
+from __future__ import annotations
 from typing import TYPE_CHECKING
 
-if TYPE_CHECKING:
+if TYPE_CHECKING: # used since it's a circular dependency with GameState
     from engine.game_state import GameState
 
-
-class Effect():
+class Effect:
 
     def __init__(self, name: str, description: str) -> None:
         self.name = name
