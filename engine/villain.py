@@ -5,6 +5,5 @@ from engine.villain_extras import VillainExtras
 
 class Villain(ABC):
 
-    def __init__(self, name: str, extras: dict[VillainExtras, Any]) -> None:
+    def __init__(self, name: str) -> None:
         self.name = name
-        self.extras = extras
