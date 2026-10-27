@@ -4,6 +4,7 @@ from engine.board import Board
 from engine.cards.card import Card
 from engine.constants import HAND_SIZE
 from engine.deck import Deck
+from engine.location import Location
 from engine.resource import Resource
 from engine.villain import Villain
 
@@ -46,7 +47,7 @@ class Player:
             return []
         return self.draw_cards(missing)
 
-    def discard_card(self, card: Card) -> bool:
+    def _discard_card(self, card: Card) -> bool:
         if card not in self.hand:
             return False
 
@@ -57,11 +58,18 @@ class Player:
     def discard_cards(self, cards: list[Card]) -> list[Card]:
         discarded_cards = []
         for card in cards:
-            if self.discard_card(card):
+            if self._discard_card(card):
                 discarded_cards.append(card)
         return discarded_cards
 
-    # The mover may go to any location except the one it's already on
+    def remove_card_from_hand(self, card: Card) -> bool:
+        if card not in self.hand:
+            return False
+
+        self.hand.remove(card)
+        return True
+
+    # The mover may go to any location except the one it's already on, at the start of turn
     def move_mover(self, new_location: int) -> bool:
         # TODO: Account for Maleficent's and Syndrome's stay at current location
         if not 0 <= new_location < len(self.board.locations):
@@ -70,3 +78,30 @@ class Player:
             return False
         self.mover_location = new_location
         return True
+
+    def play_card(self, card: Card) -> bool:
+        if card.can_play():
+            self.hand.remove(card)
+            self.board.play_card(card)
+            return True
+
+    def add_card_to_location(self, card: Card, location: Location | str, top: bool) -> bool:
+        if isinstance(location, str):
+            location = self.board.get_location(location)
+
+        location.add(card, top)
+        return True
+
+    def remove_card_from_location(self, card: Card, location: Location | str, top: bool) -> bool:
+        if isinstance(location, str):
+            location = self.board.get_location(location)
+
+        location.remove(card, top)
+        return True
+
+    def fate_on_this(self) -> None:
+        # TODO: Implement fate logic
+        pass
+
+    def move_ally_or_item(self, moved_card: Card, new_location: Location, adjacent: bool) -> bool:
+        

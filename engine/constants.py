@@ -82,3 +82,17 @@ COME_WE_FLY: Final[str] = "Come, We Fly"
 HAND_SIZE: Final[int] = 4 # Should this be a constant? It's a rule, but it could be changed (Jafar)
 
 # ===== END OF GAME RULES =====
+
+# ===== START OF COMMON WORDS =====
+VILLAIN: Final[str] = "VILLAIN"
+FATE: Final[str] = "FATE"
+
+ALLY: Final[str] = "ALLY"
+ITEM: Final[str] = "ITEM"
+EFFECT: Final[str] = "EFFECT"
+CONDITION: Final[str] = "CONDITION"
+HERO: Final[str] = "HERO"
+
+
+# ===== VILLAIN-SPECIFIC CONSTANTS =====
+import engine.villains.prince_john.const as wtia_prince_john
