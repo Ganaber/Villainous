@@ -11,6 +11,19 @@ class GameState:
     def get_current_player(self) -> Player:
         return self.players[self.current_player_index]
 
+    def get_player_by_villain(self, villain_name: str) -> Player | None:
+        for i in self.players:
+            if i.villain.name == villain_name:
+                return i
+        return None
+
+    def get_player_by_username(self, username: str) -> Player | None:
+        for i in self.players:
+            if i.username == username:
+                return i
+
+        return None
+
     def next_turn(self) -> None:
         self.current_player_index = (self.current_player_index + 1) % len(self.players)
 
@@ -18,20 +31,4 @@ class GameState:
         return len(self.players)
 
     def advance_turn_stage(self) -> None:
-        if self.turn_stage == TurnState.BEFORE_GAME:
-            self.turn_stage = TurnState.START_OF_TURN
-        elif self.turn_stage == TurnState.START_OF_TURN:
-            self.turn_stage = TurnState.BEFORE_MOVE
-        elif self.turn_stage == TurnState.BEFORE_MOVE:
-            self.turn_stage = TurnState.DURING_MOVE
-        elif self.turn_stage == TurnState.DURING_MOVE:
-            self.turn_stage = TurnState.PERFORMING_ACTION
-        elif self.turn_stage == TurnState.PERFORMING_ACTION:
-            self.turn_stage = TurnState.END_OF_TURN
-        elif self.turn_stage == TurnState.END_OF_TURN:
-            self.next_turn()
-            self.turn_stage = TurnState.START_OF_TURN
-        else:
-            # TODO: Add logging error here
-            pass
-        # TODO: Add condition logic here for DURING_CONDITION state
+        pass
