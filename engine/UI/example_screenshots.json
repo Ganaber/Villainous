@@ -1,0 +1,1679 @@
+{
+  "schema_version": 1,
+  "examples": [
+    {
+      "name": "early_game_ready_to_move",
+      "description": "Turn 1, Player 1 has not moved yet (mover_loc -1 = portrait). Empty realms, full opening hands, four legal MOVE actions.",
+      "snapshot": {
+        "turn_num": 1,
+        "current_player_index": 1,
+        "turn_stage": "BEFORE_MOVE",
+        "winner": null,
+        "players": [
+          {
+            "index": 1,
+            "power": 0,
+            "mover_loc": -1,
+            "hand": [
+              {
+                "id": "p1-v-01",
+                "name": "Beautiful Lovely Taxes",
+                "cost": 0,
+                "type": "EFFECT",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              },
+              {
+                "id": "p1-v-02",
+                "name": "Greed",
+                "cost": 0,
+                "type": "CONDITION",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              },
+              {
+                "id": "p1-v-03",
+                "name": "Wolf Archers",
+                "cost": 2,
+                "type": "ALLY",
+                "deck_type": "VILLAIN",
+                "strength": 1,
+                "attached_items": []
+              },
+              {
+                "id": "p1-v-04",
+                "name": "Sir Hiss",
+                "cost": 2,
+                "type": "ALLY",
+                "deck_type": "VILLAIN",
+                "strength": 2,
+                "attached_items": []
+              }
+            ],
+            "villain_deck": {
+              "draw_count": 26,
+              "discard": []
+            },
+            "fate_deck": {
+              "draw_count": 15,
+              "discard": []
+            },
+            "locations": [
+              {
+                "index": 0,
+                "name": "Sherwood Forest",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [
+                  {
+                    "name": "Gain 1 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Discard a Card",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Fate",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "name": "Friar Tuck's Church",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [
+                  {
+                    "name": "Gain 2 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Move an Ally or Item",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 2,
+                "name": "Nottingham",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [
+                  {
+                    "name": "Fate",
+                    "legal": false
+                  },
+                  {
+                    "name": "Gain 1 Power",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Vanquish",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 3,
+                "name": "The Jail",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [],
+                "bottom_actions": [
+                  {
+                    "name": "Gain 3 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Discard a Card",
+                    "legal": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "power": 0,
+            "mover_loc": -1,
+            "hand": [
+              {
+                "id": "p2-v-01",
+                "name": "Warrant",
+                "cost": 1,
+                "type": "ITEM",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              },
+              {
+                "id": "p2-v-02",
+                "name": "Cowardice",
+                "cost": 0,
+                "type": "CONDITION",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              },
+              {
+                "id": "p2-v-03",
+                "name": "Trigger",
+                "cost": 2,
+                "type": "ALLY",
+                "deck_type": "VILLAIN",
+                "strength": 2,
+                "attached_items": []
+              },
+              {
+                "id": "p2-v-04",
+                "name": "Sheriff of Nottingham",
+                "cost": 3,
+                "type": "ALLY",
+                "deck_type": "VILLAIN",
+                "strength": 3,
+                "attached_items": []
+              }
+            ],
+            "villain_deck": {
+              "draw_count": 26,
+              "discard": []
+            },
+            "fate_deck": {
+              "draw_count": 15,
+              "discard": []
+            },
+            "locations": [
+              {
+                "index": 0,
+                "name": "Sherwood Forest",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [
+                  {
+                    "name": "Gain 1 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Discard a Card",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Fate",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "name": "Friar Tuck's Church",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [
+                  {
+                    "name": "Gain 2 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Move an Ally or Item",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 2,
+                "name": "Nottingham",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [
+                  {
+                    "name": "Fate",
+                    "legal": false
+                  },
+                  {
+                    "name": "Gain 1 Power",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Vanquish",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 3,
+                "name": "The Jail",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [],
+                "bottom_actions": [
+                  {
+                    "name": "Gain 3 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Discard a Card",
+                    "legal": false
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "legal_actions": [
+          {
+            "id": "p1:move:0",
+            "intent": "MOVE",
+            "label": "Move to Sherwood Forest",
+            "location_index": 0,
+            "card_id": null,
+            "target_card_id": null,
+            "target_player_index": null,
+            "zone": null
+          },
+          {
+            "id": "p1:move:1",
+            "intent": "MOVE",
+            "label": "Move to Friar Tuck's Church",
+            "location_index": 1,
+            "card_id": null,
+            "target_card_id": null,
+            "target_player_index": null,
+            "zone": null
+          },
+          {
+            "id": "p1:move:2",
+            "intent": "MOVE",
+            "label": "Move to Nottingham",
+            "location_index": 2,
+            "card_id": null,
+            "target_card_id": null,
+            "target_player_index": null,
+            "zone": null
+          },
+          {
+            "id": "p1:move:3",
+            "intent": "MOVE",
+            "label": "Move to The Jail",
+            "location_index": 3,
+            "card_id": null,
+            "target_card_id": null,
+            "target_player_index": null,
+            "zone": null
+          }
+        ],
+        "last_event": "Player 1 (Prince John) begins turn 1 and must move."
+      }
+    },
+    {
+      "name": "mid_game_performing_action",
+      "description": "Turn 9, Player 2 is at Nottingham choosing one action. Heroes have been fated onto both realms; both players have discards.",
+      "snapshot": {
+        "turn_num": 9,
+        "current_player_index": 2,
+        "turn_stage": "PERFORMING_ACTION",
+        "winner": null,
+        "players": [
+          {
+            "index": 1,
+            "power": 9,
+            "mover_loc": 1,
+            "hand": [
+              {
+                "id": "p1-v-01",
+                "name": "Imprison",
+                "cost": 2,
+                "type": "EFFECT",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              },
+              {
+                "id": "p1-v-02",
+                "name": "Bow and Arrows",
+                "cost": 1,
+                "type": "ITEM",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              },
+              {
+                "id": "p1-v-03",
+                "name": "King Richard's Crown",
+                "cost": 1,
+                "type": "ITEM",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              }
+            ],
+            "villain_deck": {
+              "draw_count": 20,
+              "discard": [
+                {
+                  "id": "p1-v-06",
+                  "name": "Beautiful Lovely Taxes",
+                  "cost": 0,
+                  "type": "EFFECT",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-v-07",
+                  "name": "Beautiful Lovely Taxes",
+                  "cost": 0,
+                  "type": "EFFECT",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-v-08",
+                  "name": "Greed",
+                  "cost": 0,
+                  "type": "CONDITION",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-v-09",
+                  "name": "Cowardice",
+                  "cost": 0,
+                  "type": "CONDITION",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-v-10",
+                  "name": "Set a Trap",
+                  "cost": 1,
+                  "type": "EFFECT",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                }
+              ]
+            },
+            "fate_deck": {
+              "draw_count": 10,
+              "discard": [
+                {
+                  "id": "p1-f-03",
+                  "name": "Clever Disguise",
+                  "cost": 0,
+                  "type": "ITEM",
+                  "deck_type": "FATE",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-f-04",
+                  "name": "Steal from the Rich",
+                  "cost": 0,
+                  "type": "EFFECT",
+                  "deck_type": "FATE",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-f-05",
+                  "name": "Robin Hood",
+                  "cost": 0,
+                  "type": "HERO",
+                  "deck_type": "FATE",
+                  "strength": 4,
+                  "attached_items": []
+                }
+              ]
+            },
+            "locations": [
+              {
+                "index": 0,
+                "name": "Sherwood Forest",
+                "is_occupied": false,
+                "top_cards": [
+                  {
+                    "id": "p1-f-01",
+                    "name": "Friar Tuck",
+                    "cost": 0,
+                    "type": "HERO",
+                    "deck_type": "FATE",
+                    "strength": 2,
+                    "attached_items": []
+                  }
+                ],
+                "bottom_cards": [
+                  {
+                    "id": "p1-v-04",
+                    "name": "Sir Hiss",
+                    "cost": 2,
+                    "type": "ALLY",
+                    "deck_type": "VILLAIN",
+                    "strength": 2,
+                    "attached_items": []
+                  }
+                ],
+                "top_actions": [
+                  {
+                    "name": "Gain 1 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Discard a Card",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Fate",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "name": "Friar Tuck's Church",
+                "is_occupied": true,
+                "top_cards": [],
+                "bottom_cards": [
+                  {
+                    "id": "p1-v-05",
+                    "name": "Nutsy",
+                    "cost": 2,
+                    "type": "ALLY",
+                    "deck_type": "VILLAIN",
+                    "strength": 2,
+                    "attached_items": []
+                  }
+                ],
+                "top_actions": [
+                  {
+                    "name": "Gain 2 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Move an Ally or Item",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 2,
+                "name": "Nottingham",
+                "is_occupied": false,
+                "top_cards": [
+                  {
+                    "id": "p1-f-02",
+                    "name": "Little John",
+                    "cost": 0,
+                    "type": "HERO",
+                    "deck_type": "FATE",
+                    "strength": 3,
+                    "attached_items": []
+                  }
+                ],
+                "bottom_cards": [],
+                "top_actions": [
+                  {
+                    "name": "Fate",
+                    "legal": false
+                  },
+                  {
+                    "name": "Gain 1 Power",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Vanquish",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 3,
+                "name": "The Jail",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [],
+                "bottom_actions": [
+                  {
+                    "name": "Gain 3 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Discard a Card",
+                    "legal": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "power": 11,
+            "mover_loc": 2,
+            "hand": [
+              {
+                "id": "p2-v-01",
+                "name": "Rhino Guards",
+                "cost": 3,
+                "type": "ALLY",
+                "deck_type": "VILLAIN",
+                "strength": 2,
+                "attached_items": []
+              },
+              {
+                "id": "p2-v-02",
+                "name": "Beautiful Lovely Taxes",
+                "cost": 0,
+                "type": "EFFECT",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              },
+              {
+                "id": "p2-v-03",
+                "name": "Golden Arrow",
+                "cost": 0,
+                "type": "ITEM",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              },
+              {
+                "id": "p2-v-04",
+                "name": "Cowardice",
+                "cost": 0,
+                "type": "CONDITION",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              }
+            ],
+            "villain_deck": {
+              "draw_count": 20,
+              "discard": [
+                {
+                  "id": "p2-v-07",
+                  "name": "Warrant",
+                  "cost": 1,
+                  "type": "ITEM",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-v-08",
+                  "name": "Imprison",
+                  "cost": 2,
+                  "type": "EFFECT",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-v-09",
+                  "name": "Greed",
+                  "cost": 0,
+                  "type": "CONDITION",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-v-10",
+                  "name": "Wolf Archers",
+                  "cost": 2,
+                  "type": "ALLY",
+                  "deck_type": "VILLAIN",
+                  "strength": 1,
+                  "attached_items": []
+                }
+              ]
+            },
+            "fate_deck": {
+              "draw_count": 11,
+              "discard": [
+                {
+                  "id": "p2-f-03",
+                  "name": "Clever Disguise",
+                  "cost": 0,
+                  "type": "ITEM",
+                  "deck_type": "FATE",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-f-04",
+                  "name": "Toby",
+                  "cost": 0,
+                  "type": "HERO",
+                  "deck_type": "FATE",
+                  "strength": 1,
+                  "attached_items": []
+                }
+              ]
+            },
+            "locations": [
+              {
+                "index": 0,
+                "name": "Sherwood Forest",
+                "is_occupied": false,
+                "top_cards": [
+                  {
+                    "id": "p2-f-01",
+                    "name": "Skippy",
+                    "cost": 0,
+                    "type": "HERO",
+                    "deck_type": "FATE",
+                    "strength": 1,
+                    "attached_items": []
+                  }
+                ],
+                "bottom_cards": [
+                  {
+                    "id": "p2-v-05",
+                    "name": "Wolf Archers",
+                    "cost": 2,
+                    "type": "ALLY",
+                    "deck_type": "VILLAIN",
+                    "strength": 1,
+                    "attached_items": []
+                  }
+                ],
+                "top_actions": [
+                  {
+                    "name": "Gain 1 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Discard a Card",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Fate",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "name": "Friar Tuck's Church",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [
+                  {
+                    "name": "Gain 2 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Move an Ally or Item",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 2,
+                "name": "Nottingham",
+                "is_occupied": true,
+                "top_cards": [
+                  {
+                    "id": "p2-f-02",
+                    "name": "Maid Marian",
+                    "cost": 0,
+                    "type": "HERO",
+                    "deck_type": "FATE",
+                    "strength": 3,
+                    "attached_items": []
+                  }
+                ],
+                "bottom_cards": [
+                  {
+                    "id": "p2-v-06",
+                    "name": "Sheriff of Nottingham",
+                    "cost": 3,
+                    "type": "ALLY",
+                    "deck_type": "VILLAIN",
+                    "strength": 3,
+                    "attached_items": []
+                  }
+                ],
+                "top_actions": [
+                  {
+                    "name": "Fate",
+                    "legal": true
+                  },
+                  {
+                    "name": "Gain 1 Power",
+                    "legal": true
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Vanquish",
+                    "legal": true
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": true
+                  }
+                ]
+              },
+              {
+                "index": 3,
+                "name": "The Jail",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [],
+                "bottom_actions": [
+                  {
+                    "name": "Gain 3 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Discard a Card",
+                    "legal": false
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "legal_actions": [
+          {
+            "id": "p2:fate:2",
+            "intent": "FATE",
+            "label": "Fate Player 1",
+            "location_index": 2,
+            "card_id": null,
+            "target_card_id": null,
+            "target_player_index": 1,
+            "zone": null
+          },
+          {
+            "id": "p2:gain:2",
+            "intent": "GAIN_POWER",
+            "label": "Gain 1 Power",
+            "location_index": 2,
+            "card_id": null,
+            "target_card_id": null,
+            "target_player_index": null,
+            "zone": null
+          },
+          {
+            "id": "p2:vanquish:p2-f-02",
+            "intent": "VANQUISH",
+            "label": "Vanquish Maid Marian (3 STR)",
+            "location_index": 2,
+            "card_id": null,
+            "target_card_id": "p2-f-02",
+            "target_player_index": null,
+            "zone": null
+          },
+          {
+            "id": "p2:play:p2-v-01:2",
+            "intent": "PLAY_CARD",
+            "label": "Play Rhino Guards (3 Power)",
+            "location_index": 2,
+            "card_id": "p2-v-01",
+            "target_card_id": null,
+            "target_player_index": null,
+            "zone": "top"
+          },
+          {
+            "id": "p2:play:p2-v-02:2",
+            "intent": "PLAY_CARD",
+            "label": "Play Beautiful Lovely Taxes (0 Power)",
+            "location_index": 2,
+            "card_id": "p2-v-02",
+            "target_card_id": null,
+            "target_player_index": null,
+            "zone": null
+          },
+          {
+            "id": "p2:play:p2-v-03:2",
+            "intent": "PLAY_CARD",
+            "label": "Play Golden Arrow (0 Power)",
+            "location_index": 2,
+            "card_id": "p2-v-03",
+            "target_card_id": null,
+            "target_player_index": null,
+            "zone": "top"
+          },
+          {
+            "id": "p2:play:p2-v-04:2",
+            "intent": "PLAY_CARD",
+            "label": "Play Cowardice (0 Power)",
+            "location_index": 2,
+            "card_id": "p2-v-04",
+            "target_card_id": null,
+            "target_player_index": null,
+            "zone": null
+          }
+        ],
+        "last_event": "Player 2 moved to Nottingham and performs 1 action."
+      }
+    },
+    {
+      "name": "game_over_prince_john_wins",
+      "description": "Turn 24, Player 1 begins their turn with 20 Power and wins. winner is set and legal_actions is empty.",
+      "snapshot": {
+        "turn_num": 24,
+        "current_player_index": 1,
+        "turn_stage": "START_OF_TURN",
+        "winner": 1,
+        "players": [
+          {
+            "index": 1,
+            "power": 20,
+            "mover_loc": 3,
+            "hand": [
+              {
+                "id": "p1-v-01",
+                "name": "Trigger",
+                "cost": 2,
+                "type": "ALLY",
+                "deck_type": "VILLAIN",
+                "strength": 2,
+                "attached_items": []
+              },
+              {
+                "id": "p1-v-02",
+                "name": "Warrant",
+                "cost": 1,
+                "type": "ITEM",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              }
+            ],
+            "villain_deck": {
+              "draw_count": 14,
+              "discard": [
+                {
+                  "id": "p1-v-08",
+                  "name": "Beautiful Lovely Taxes",
+                  "cost": 0,
+                  "type": "EFFECT",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-v-09",
+                  "name": "Beautiful Lovely Taxes",
+                  "cost": 0,
+                  "type": "EFFECT",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-v-10",
+                  "name": "Beautiful Lovely Taxes",
+                  "cost": 0,
+                  "type": "EFFECT",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-v-11",
+                  "name": "Greed",
+                  "cost": 0,
+                  "type": "CONDITION",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-v-12",
+                  "name": "Greed",
+                  "cost": 0,
+                  "type": "CONDITION",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-v-13",
+                  "name": "Cowardice",
+                  "cost": 0,
+                  "type": "CONDITION",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-v-14",
+                  "name": "Cowardice",
+                  "cost": 0,
+                  "type": "CONDITION",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-v-15",
+                  "name": "Set a Trap",
+                  "cost": 1,
+                  "type": "EFFECT",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-v-16",
+                  "name": "Intimidation",
+                  "cost": 2,
+                  "type": "EFFECT",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                }
+              ]
+            },
+            "fate_deck": {
+              "draw_count": 5,
+              "discard": [
+                {
+                  "id": "p1-f-03",
+                  "name": "Clever Disguise",
+                  "cost": 0,
+                  "type": "ITEM",
+                  "deck_type": "FATE",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-f-04",
+                  "name": "Clever Disguise",
+                  "cost": 0,
+                  "type": "ITEM",
+                  "deck_type": "FATE",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-f-05",
+                  "name": "Clever Disguise",
+                  "cost": 0,
+                  "type": "ITEM",
+                  "deck_type": "FATE",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-f-06",
+                  "name": "Steal from the Rich",
+                  "cost": 0,
+                  "type": "EFFECT",
+                  "deck_type": "FATE",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-f-07",
+                  "name": "Steal from the Rich",
+                  "cost": 0,
+                  "type": "EFFECT",
+                  "deck_type": "FATE",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-f-08",
+                  "name": "Steal from the Rich",
+                  "cost": 0,
+                  "type": "EFFECT",
+                  "deck_type": "FATE",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-f-09",
+                  "name": "King Richard",
+                  "cost": 0,
+                  "type": "HERO",
+                  "deck_type": "FATE",
+                  "strength": 5,
+                  "attached_items": []
+                },
+                {
+                  "id": "p1-f-10",
+                  "name": "Alan-A-Dale",
+                  "cost": 0,
+                  "type": "HERO",
+                  "deck_type": "FATE",
+                  "strength": 2,
+                  "attached_items": []
+                }
+              ]
+            },
+            "locations": [
+              {
+                "index": 0,
+                "name": "Sherwood Forest",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [
+                  {
+                    "name": "Gain 1 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Discard a Card",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Fate",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "name": "Friar Tuck's Church",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [
+                  {
+                    "name": "Gain 2 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Move an Ally or Item",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 2,
+                "name": "Nottingham",
+                "is_occupied": false,
+                "top_cards": [
+                  {
+                    "id": "p1-f-01",
+                    "name": "Robin Hood",
+                    "cost": 0,
+                    "type": "HERO",
+                    "deck_type": "FATE",
+                    "strength": 4,
+                    "attached_items": []
+                  }
+                ],
+                "bottom_cards": [
+                  {
+                    "id": "p1-v-03",
+                    "name": "Nutsy",
+                    "cost": 2,
+                    "type": "ALLY",
+                    "deck_type": "VILLAIN",
+                    "strength": 2,
+                    "attached_items": []
+                  },
+                  {
+                    "id": "p1-v-04",
+                    "name": "Wolf Archers",
+                    "cost": 2,
+                    "type": "ALLY",
+                    "deck_type": "VILLAIN",
+                    "strength": 1,
+                    "attached_items": []
+                  }
+                ],
+                "top_actions": [
+                  {
+                    "name": "Fate",
+                    "legal": false
+                  },
+                  {
+                    "name": "Gain 1 Power",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Vanquish",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 3,
+                "name": "The Jail",
+                "is_occupied": true,
+                "top_cards": [
+                  {
+                    "id": "p1-f-02",
+                    "name": "Maid Marian",
+                    "cost": 0,
+                    "type": "HERO",
+                    "deck_type": "FATE",
+                    "strength": 3,
+                    "attached_items": []
+                  }
+                ],
+                "bottom_cards": [
+                  {
+                    "id": "p1-v-05",
+                    "name": "Rhino Guards",
+                    "cost": 3,
+                    "type": "ALLY",
+                    "deck_type": "VILLAIN",
+                    "strength": 2,
+                    "attached_items": []
+                  },
+                  {
+                    "id": "p1-v-06",
+                    "name": "Rhino Guards",
+                    "cost": 3,
+                    "type": "ALLY",
+                    "deck_type": "VILLAIN",
+                    "strength": 2,
+                    "attached_items": []
+                  },
+                  {
+                    "id": "p1-v-07",
+                    "name": "Sir Hiss",
+                    "cost": 2,
+                    "type": "ALLY",
+                    "deck_type": "VILLAIN",
+                    "strength": 2,
+                    "attached_items": []
+                  }
+                ],
+                "top_actions": [],
+                "bottom_actions": [
+                  {
+                    "name": "Gain 3 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Discard a Card",
+                    "legal": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "power": 13,
+            "mover_loc": 0,
+            "hand": [
+              {
+                "id": "p2-v-01",
+                "name": "Sheriff of Nottingham",
+                "cost": 3,
+                "type": "ALLY",
+                "deck_type": "VILLAIN",
+                "strength": 3,
+                "attached_items": []
+              },
+              {
+                "id": "p2-v-02",
+                "name": "Imprison",
+                "cost": 2,
+                "type": "EFFECT",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              },
+              {
+                "id": "p2-v-03",
+                "name": "Bow and Arrows",
+                "cost": 1,
+                "type": "ITEM",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              },
+              {
+                "id": "p2-v-04",
+                "name": "Golden Arrow",
+                "cost": 0,
+                "type": "ITEM",
+                "deck_type": "VILLAIN",
+                "strength": null,
+                "attached_items": []
+              }
+            ],
+            "villain_deck": {
+              "draw_count": 15,
+              "discard": [
+                {
+                  "id": "p2-v-09",
+                  "name": "Beautiful Lovely Taxes",
+                  "cost": 0,
+                  "type": "EFFECT",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-v-10",
+                  "name": "Beautiful Lovely Taxes",
+                  "cost": 0,
+                  "type": "EFFECT",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-v-11",
+                  "name": "Greed",
+                  "cost": 0,
+                  "type": "CONDITION",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-v-12",
+                  "name": "Set a Trap",
+                  "cost": 1,
+                  "type": "EFFECT",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-v-13",
+                  "name": "King Richard's Crown",
+                  "cost": 1,
+                  "type": "ITEM",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-v-14",
+                  "name": "Trigger",
+                  "cost": 2,
+                  "type": "ALLY",
+                  "deck_type": "VILLAIN",
+                  "strength": 2,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-v-15",
+                  "name": "Cowardice",
+                  "cost": 0,
+                  "type": "CONDITION",
+                  "deck_type": "VILLAIN",
+                  "strength": null,
+                  "attached_items": []
+                }
+              ]
+            },
+            "fate_deck": {
+              "draw_count": 7,
+              "discard": [
+                {
+                  "id": "p2-f-04",
+                  "name": "Clever Disguise",
+                  "cost": 0,
+                  "type": "ITEM",
+                  "deck_type": "FATE",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-f-05",
+                  "name": "Clever Disguise",
+                  "cost": 0,
+                  "type": "ITEM",
+                  "deck_type": "FATE",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-f-06",
+                  "name": "Steal from the Rich",
+                  "cost": 0,
+                  "type": "EFFECT",
+                  "deck_type": "FATE",
+                  "strength": null,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-f-07",
+                  "name": "Toby",
+                  "cost": 0,
+                  "type": "HERO",
+                  "deck_type": "FATE",
+                  "strength": 1,
+                  "attached_items": []
+                },
+                {
+                  "id": "p2-f-08",
+                  "name": "Little John",
+                  "cost": 0,
+                  "type": "HERO",
+                  "deck_type": "FATE",
+                  "strength": 3,
+                  "attached_items": []
+                }
+              ]
+            },
+            "locations": [
+              {
+                "index": 0,
+                "name": "Sherwood Forest",
+                "is_occupied": true,
+                "top_cards": [
+                  {
+                    "id": "p2-f-01",
+                    "name": "Friar Tuck",
+                    "cost": 0,
+                    "type": "HERO",
+                    "deck_type": "FATE",
+                    "strength": 2,
+                    "attached_items": []
+                  }
+                ],
+                "bottom_cards": [
+                  {
+                    "id": "p2-v-05",
+                    "name": "Sir Hiss",
+                    "cost": 2,
+                    "type": "ALLY",
+                    "deck_type": "VILLAIN",
+                    "strength": 2,
+                    "attached_items": []
+                  }
+                ],
+                "top_actions": [
+                  {
+                    "name": "Gain 1 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Discard a Card",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Fate",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "name": "Friar Tuck's Church",
+                "is_occupied": false,
+                "top_cards": [
+                  {
+                    "id": "p2-f-02",
+                    "name": "Skippy",
+                    "cost": 0,
+                    "type": "HERO",
+                    "deck_type": "FATE",
+                    "strength": 1,
+                    "attached_items": []
+                  }
+                ],
+                "bottom_cards": [
+                  {
+                    "id": "p2-v-06",
+                    "name": "Nutsy",
+                    "cost": 2,
+                    "type": "ALLY",
+                    "deck_type": "VILLAIN",
+                    "strength": 2,
+                    "attached_items": []
+                  },
+                  {
+                    "id": "p2-v-07",
+                    "name": "Wolf Archers",
+                    "cost": 2,
+                    "type": "ALLY",
+                    "deck_type": "VILLAIN",
+                    "strength": 1,
+                    "attached_items": []
+                  }
+                ],
+                "top_actions": [
+                  {
+                    "name": "Gain 2 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Move an Ally or Item",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 2,
+                "name": "Nottingham",
+                "is_occupied": false,
+                "top_cards": [
+                  {
+                    "id": "p2-f-03",
+                    "name": "Lady Kluck",
+                    "cost": 0,
+                    "type": "HERO",
+                    "deck_type": "FATE",
+                    "strength": 2,
+                    "attached_items": []
+                  }
+                ],
+                "bottom_cards": [
+                  {
+                    "id": "p2-v-08",
+                    "name": "Rhino Guards",
+                    "cost": 3,
+                    "type": "ALLY",
+                    "deck_type": "VILLAIN",
+                    "strength": 2,
+                    "attached_items": []
+                  }
+                ],
+                "top_actions": [
+                  {
+                    "name": "Fate",
+                    "legal": false
+                  },
+                  {
+                    "name": "Gain 1 Power",
+                    "legal": false
+                  }
+                ],
+                "bottom_actions": [
+                  {
+                    "name": "Vanquish",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  }
+                ]
+              },
+              {
+                "index": 3,
+                "name": "The Jail",
+                "is_occupied": false,
+                "top_cards": [],
+                "bottom_cards": [],
+                "top_actions": [],
+                "bottom_actions": [
+                  {
+                    "name": "Gain 3 Power",
+                    "legal": false
+                  },
+                  {
+                    "name": "Play a Card",
+                    "legal": false
+                  },
+                  {
+                    "name": "Discard a Card",
+                    "legal": false
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "legal_actions": [],
+        "last_event": "Player 1 (Prince John) began turn 24 with 20 Power. Prince John wins!"
+      }
+    }
+  ]
+}

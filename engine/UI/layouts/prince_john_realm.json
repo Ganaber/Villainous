@@ -1,0 +1,347 @@
+{
+  "name": "wtia_prince_john",
+  "canvas": {
+    "width": 1600,
+    "height": 1100
+  },
+  "background": "board.wtia_prince_john",
+  "board_aspect": 3.5527,
+  "board_fraction": 0.83333,
+  "cards": {
+    "width": 0.0717,
+    "height": 0.1013,
+    "gap": 0.004,
+    "fan_angle": 0.0
+  },
+  "action_slots": {
+    "centers": {
+      "1": [
+        0.5
+      ],
+      "2": [
+        0.305,
+        0.695
+      ],
+      "3": [
+        0.189,
+        0.486,
+        0.783
+      ]
+    },
+    "diameter": 0.24
+  },
+  "regions": {
+    "board.portrait": {
+      "rect": {
+        "x": 0.004,
+        "y": 0.03333,
+        "w": 0.147,
+        "h": 0.40833
+      }
+    },
+    "board.mover": {
+      "rect": {
+        "x": 0.018,
+        "y": 0.33333,
+        "w": 0.12,
+        "h": 0.10833
+      }
+    },
+    "board.power": {
+      "rect": {
+        "x": 0.008,
+        "y": 0.51,
+        "w": 0.139,
+        "h": 0.08333
+      }
+    },
+    "board.villain_draw": {
+      "rect": {
+        "x": 0.008,
+        "y": 0.59833,
+        "w": 0.139,
+        "h": 0.05
+      }
+    },
+    "board.fate_draw": {
+      "rect": {
+        "x": 0.008,
+        "y": 0.65333,
+        "w": 0.139,
+        "h": 0.05
+      }
+    },
+    "board.villain_discard": {
+      "rect": {
+        "x": 0.008,
+        "y": 0.70833,
+        "w": 0.139,
+        "h": 0.05
+      }
+    },
+    "board.fate_discard": {
+      "rect": {
+        "x": 0.008,
+        "y": 0.76333,
+        "w": 0.139,
+        "h": 0.05
+      }
+    },
+    "board.hand": {
+      "rect": {
+        "x": 0.005,
+        "y": 0.84,
+        "w": 0.99,
+        "h": 0.15
+      }
+    },
+    "location.0.panel": {
+      "rect": {
+        "x": 0.1673,
+        "y": 0.07,
+        "w": 0.1955,
+        "h": 0.58583
+      }
+    },
+    "location.0.title": {
+      "rect": {
+        "x": 0.1673,
+        "y": 0.6625,
+        "w": 0.1955,
+        "h": 0.06917
+      }
+    },
+    "location.0.top_actions": {
+      "rect": {
+        "x": 0.1673,
+        "y": 0.10583,
+        "w": 0.1955,
+        "h": 0.11833
+      },
+      "capacity": 2,
+      "align": "start"
+    },
+    "location.0.top_cards": {
+      "rect": {
+        "x": 0.1673,
+        "y": 0.07,
+        "w": 0.1955,
+        "h": 0.20667
+      },
+      "capacity": 2
+    },
+    "location.0.bottom_cards": {
+      "rect": {
+        "x": 0.1673,
+        "y": 0.27667,
+        "w": 0.1955,
+        "h": 0.225
+      },
+      "capacity": 2
+    },
+    "location.0.bottom_actions": {
+      "rect": {
+        "x": 0.1673,
+        "y": 0.50167,
+        "w": 0.1955,
+        "h": 0.1175
+      },
+      "capacity": 3,
+      "align": "start"
+    },
+    "location.0.mover": {
+      "rect": {
+        "x": 0.3368,
+        "y": 0.6625,
+        "w": 0.024,
+        "h": 0.06917
+      }
+    },
+    "location.1.panel": {
+      "rect": {
+        "x": 0.376,
+        "y": 0.07,
+        "w": 0.1961,
+        "h": 0.58583
+      }
+    },
+    "location.1.title": {
+      "rect": {
+        "x": 0.376,
+        "y": 0.6625,
+        "w": 0.1961,
+        "h": 0.06917
+      }
+    },
+    "location.1.top_actions": {
+      "rect": {
+        "x": 0.376,
+        "y": 0.10583,
+        "w": 0.1961,
+        "h": 0.11833
+      },
+      "capacity": 2,
+      "align": "start"
+    },
+    "location.1.top_cards": {
+      "rect": {
+        "x": 0.376,
+        "y": 0.07,
+        "w": 0.1961,
+        "h": 0.20667
+      },
+      "capacity": 2
+    },
+    "location.1.bottom_cards": {
+      "rect": {
+        "x": 0.376,
+        "y": 0.27667,
+        "w": 0.1961,
+        "h": 0.225
+      },
+      "capacity": 2
+    },
+    "location.1.bottom_actions": {
+      "rect": {
+        "x": 0.376,
+        "y": 0.50167,
+        "w": 0.1961,
+        "h": 0.1175
+      },
+      "capacity": 3,
+      "align": "start"
+    },
+    "location.1.mover": {
+      "rect": {
+        "x": 0.5461,
+        "y": 0.6625,
+        "w": 0.024,
+        "h": 0.06917
+      }
+    },
+    "location.2.panel": {
+      "rect": {
+        "x": 0.5855,
+        "y": 0.07,
+        "w": 0.1949,
+        "h": 0.58583
+      }
+    },
+    "location.2.title": {
+      "rect": {
+        "x": 0.5855,
+        "y": 0.6625,
+        "w": 0.1949,
+        "h": 0.06917
+      }
+    },
+    "location.2.top_actions": {
+      "rect": {
+        "x": 0.5855,
+        "y": 0.10583,
+        "w": 0.1949,
+        "h": 0.11833
+      },
+      "capacity": 2,
+      "align": "start"
+    },
+    "location.2.top_cards": {
+      "rect": {
+        "x": 0.5855,
+        "y": 0.07,
+        "w": 0.1949,
+        "h": 0.20667
+      },
+      "capacity": 2
+    },
+    "location.2.bottom_cards": {
+      "rect": {
+        "x": 0.5855,
+        "y": 0.27667,
+        "w": 0.1949,
+        "h": 0.225
+      },
+      "capacity": 2
+    },
+    "location.2.bottom_actions": {
+      "rect": {
+        "x": 0.5855,
+        "y": 0.50167,
+        "w": 0.1949,
+        "h": 0.1175
+      },
+      "capacity": 3,
+      "align": "start"
+    },
+    "location.2.mover": {
+      "rect": {
+        "x": 0.7544,
+        "y": 0.6625,
+        "w": 0.024,
+        "h": 0.06917
+      }
+    },
+    "location.3.panel": {
+      "rect": {
+        "x": 0.7944,
+        "y": 0.07,
+        "w": 0.1956,
+        "h": 0.58583
+      }
+    },
+    "location.3.title": {
+      "rect": {
+        "x": 0.7944,
+        "y": 0.6625,
+        "w": 0.1956,
+        "h": 0.06917
+      }
+    },
+    "location.3.top_actions": {
+      "rect": {
+        "x": 0.7944,
+        "y": 0.10583,
+        "w": 0.1956,
+        "h": 0.11833
+      },
+      "capacity": 2,
+      "align": "start"
+    },
+    "location.3.top_cards": {
+      "rect": {
+        "x": 0.7944,
+        "y": 0.07,
+        "w": 0.1956,
+        "h": 0.20667
+      },
+      "capacity": 2
+    },
+    "location.3.bottom_cards": {
+      "rect": {
+        "x": 0.7944,
+        "y": 0.27667,
+        "w": 0.1956,
+        "h": 0.225
+      },
+      "capacity": 2
+    },
+    "location.3.bottom_actions": {
+      "rect": {
+        "x": 0.7944,
+        "y": 0.50167,
+        "w": 0.1956,
+        "h": 0.1175
+      },
+      "capacity": 3,
+      "align": "start"
+    },
+    "location.3.mover": {
+      "rect": {
+        "x": 0.964,
+        "y": 0.6625,
+        "w": 0.024,
+        "h": 0.06917
+      }
+    }
+  }
+}
